@@ -14,3 +14,13 @@ Para criar o script e poder executá-lo, será necessário duas tecnologias:
 
 
 Tendo os dois requisitos citados anteriormente, podemos dar início ao script. Neste caso estaremos criando uma instância na AWS para hospedar o servidor WEB. Para isto, crie um arquivo com a extenção .tf (arquivo terraform) com o conteúdo do arquivo 'main.tf' presente no projeto (consultar código)
+
+Após a criação do script basta executá-lo da seguinte forma:
+
+>1º Abrir um terminal na pasta onde está salvo o 'main.tf';
+
+>2º Execute os seguintes comandos:
+
+    terraform init
+
+    terraform apply
