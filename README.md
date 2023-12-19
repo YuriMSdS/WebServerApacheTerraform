@@ -28,3 +28,4 @@ Após a criação do script basta executá-lo da seguinte forma:
 >3º Após o término do processo, o script irá exibir o IP público da instância
 
 Por fim basta acessar o servidor WEB!
+ Para acessar o servidor web, abra o navegador e insira o IP público da instância.
