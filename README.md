@@ -24,3 +24,7 @@ Após a criação do script basta executá-lo da seguinte forma:
     terraform init
 
     terraform apply
+
+>3º Após o término do processo, o script irá exibir o IP público da instância
+
+Por fim basta acessar o servidor WEB!
