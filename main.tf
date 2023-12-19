@@ -11,13 +11,11 @@ resource "aws_instance" "web_server" {
     }
 
 # Os campos abaixo são de uso pessoal, portanto, devem ser colocadas as credenciais pessoais do usuário
-
     key_name       = "sua_chave_ssh"            # Substituir pelo nome da chave SSH
     security_group = ["Default"]                # Substituir pelo ID do grupo de segurança desejado
 
 
 #Nesta etapa, é onde será atualizado os pacotes, o servidor web será instalado, o apache será configurado e iniciado, e a página HTML criada!    
-
     user_data = <<-EOF                  
         #!/bin/bash
         sudo yum update -y
@@ -29,7 +27,6 @@ resource "aws_instance" "web_server" {
 }
 
 #Etapa na qual será exibido os IPs públicos da instância criada e da instância EC2
-
 output "public_ip" {
     value = aws_instance.web_server.public_ip
 }
