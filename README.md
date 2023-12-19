@@ -28,4 +28,14 @@ Após a criação do script basta executá-lo da seguinte forma:
 >3º Após o término do processo, o script irá exibir o IP público da instância
 
 Por fim basta acessar o servidor WEB!
- Para acessar o servidor web, abra o navegador e insira o IP público da instância.
+Para acessar o servidor web, abra o navegador e insira o IP público da instância.
+
+Este foi um projeto bem simples, no qual não foi configurado a parte de segurança, loadbalance, DNS e etc.
+
+    TECNOLOGIAS UTILIZADAS:
+
+    •AWS (Serviço em nuvem utilizado)
+
+    •TERRAFORM (Manipulador de infraestrutura em código)
+
+    •VSCODE (como IDE)
