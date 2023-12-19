@@ -14,3 +14,18 @@ tags = {
 #os campos abaixo são de uso pessoal, portanto deve-se colocar as credenciais pessoais  do usuário
 key_name       = "sua_chave_ssh"    #Substituir pelo nome da chave SSH
 security_group = ["Default"]        #Substituir pelo ID do grupo de segurança desejado
+
+user_data = {
+            <<-EOF
+            #!/bin/bash
+            sudo yum update -y
+            sudo yum install -y httpd
+            sudo systemctl start httpd
+            sudo systemctl enable httpd
+            echo "<html><body><h1> DevOps DIO! </h1></body></html>" > /var/www/html/index.html
+            EOF
+}
+
+output "public_ip" {
+    value = aws_instance.web_server.public_ip
+}
