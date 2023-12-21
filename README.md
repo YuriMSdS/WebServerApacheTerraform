@@ -30,7 +30,8 @@ Após a criação do script basta executá-lo da seguinte forma:
 Por fim basta acessar o servidor WEB!
 Para acessar o servidor web, abra o navegador e insira o IP público da instância.
 
-Este foi um projeto bem simples, no qual não foi configurado a parte de segurança, loadbalance, DNS e etc.
+Este foi um projeto bem simples, no qual não foi configurado a parte de segurança, loadbalance, DNS e etc. Servindo apenas como uma base, na qual, pode ser alterada
+de acordo com a necessidade e vontade do usuário!
 
     TECNOLOGIAS UTILIZADAS:
 
