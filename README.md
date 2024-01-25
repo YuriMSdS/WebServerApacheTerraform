@@ -1,6 +1,6 @@
 # Infraestrutura como Código: Script de provisionamento de um servidor web (apache)
 
-Mais um desafio de projeto do bootcamp DevOps Experience da DIO, neste repositório estarei ensinando passo a passo de como criar um script para provisionar um servidor web.
+Projeto para portifólio, neste repositório estarei ensinando passo a passo de como criar um script para provisionar um servidor web.
 
 Para criar o script e poder executá-lo, será necessário duas tecnologias:
 
